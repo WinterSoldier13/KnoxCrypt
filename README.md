@@ -19,7 +19,6 @@ KnoxCrypt [MacOS] - A secure cryptographic tool to encrypt-decrypt your files wi
 ## Before Encryption
 
 ![Alt text](./resources/before_encryption_folder.png?raw=true "Folder View before encryption")
-folder view before encryption
 ![Alt text](./resources/before_encryption_term.png?raw=true "Terminal View before encryption")
 
 ## After Encryption
