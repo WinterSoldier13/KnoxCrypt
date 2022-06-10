@@ -18,11 +18,11 @@ KnoxCrypt [MacOS] - A secure cryptographic tool to encrypt-decrypt your files wi
 
 ## Before Encryption
 
-![Alt text](resources/before_encryption_folder?raw=true "Folder View before encryption")
-![Alt text](resources/before_encryption_term?raw=true "Terminal View before encryption")
+![Alt text](./resources/before_encryption_folder.png?raw=true "Folder View before encryption")
+![Alt text](./resources/before_encryption_term.png?raw=true "Terminal View before encryption")
 
 ## After Encryption
 
-![Alt text](resources/after_encryption_folder?raw=true "Folder View before encryption")
-![Alt text](resources/after_encryption_term?raw=true "Terminal View before encryption")
+![Alt text](./resources/after_encryption_folder.png?raw=true "Folder View before encryption")
+![Alt text](./resources/after_encryption_term.png?raw=true "Terminal View before encryption")
 
