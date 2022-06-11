@@ -1,4 +1,4 @@
-const {app, BrowserWindow} = require('electron');
+const {app, BrowserWindow, webContents} = require('electron');
 require('electron-reloader')(module)
 
 function createMainWindow() {
@@ -29,3 +29,8 @@ app.on('activate', () => {
       createMainWindow()
     }
   });
+
+const goBack = async () => {
+    webContents.goBack()
+  }
+  

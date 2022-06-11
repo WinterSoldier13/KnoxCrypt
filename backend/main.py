@@ -31,17 +31,16 @@ async def get_files(file_path_request : Request):
 
 @app.post("/encrypt/")
 async def encrypt_files(file_path_request : Request):
-    request_file = await file_path_request.form()
+    request_file = await file_path_request.json()
     request_file = jsonable_encoder(request_file)
     current_path = request_file['current_path']
-    
+
+    assert len(current_path) != 0, "folder to encode was not specified"
     assert current_path!='/', "wow dealing with root dir is dangerous. Will not proceed."
     assert '/Users/' in current_path, "will deal only with User directories here buddy"
 
     call_for_decryption = False
     hash_password = request_file['password']
-
-    print(current_path, call_for_decryption, hash_password)
 
     ob = GetFiles(current_path=current_path, call_for_decryption=call_for_decryption)
     files = ob.get_all_files()
@@ -51,7 +50,7 @@ async def encrypt_files(file_path_request : Request):
 
 @app.post("/decrypt/")
 async def decrypt_files(file_path_request : Request):
-    request_file = await file_path_request.form()
+    request_file = await file_path_request.json()
     request_file = jsonable_encoder(request_file)
     current_path = request_file['current_path']
     
@@ -60,8 +59,6 @@ async def decrypt_files(file_path_request : Request):
 
     call_for_decryption = True
     hash_password = request_file['password']
-
-    print(current_path, call_for_decryption, hash_password)
 
     ob = GetFiles(current_path=current_path, call_for_decryption=call_for_decryption)
     files = ob.get_all_files()
