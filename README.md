@@ -1,6 +1,12 @@
 # KnoxCrypt
 KnoxCrypt [MacOS/Linux] - A secure cryptographic tool to encrypt-decrypt your files with SHA-256 hashing.
 
+## Requirements
+1. `pip install -r requirements.txt` in backend folder
+2. `npm install` in frontend folder
+3. start the backend by `uvicorn main:app`
+4. start the frontend by `npm start`
+
 ## How to Encrypt?
 1. Select the folder that you want to encrypt using the UI. 
 2. Supply a password.
