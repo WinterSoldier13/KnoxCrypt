@@ -1,5 +1,5 @@
 # KnoxCrypt
-KnoxCrypt [MacOS] - A secure cryptographic tool to encrypt-decrypt your files with SHA-256 hashing.
+KnoxCrypt [MacOS/Linux] - A secure cryptographic tool to encrypt-decrypt your files with SHA-256 hashing.
 
 ## How to Encrypt?
 1. Select the folder that you want to encrypt using the UI (currently under development). 
