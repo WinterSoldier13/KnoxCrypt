@@ -2,7 +2,7 @@
 KnoxCrypt [MacOS/Linux] - A secure cryptographic tool to encrypt-decrypt your files with SHA-256 hashing.
 
 ## How to Encrypt?
-1. Select the folder that you want to encrypt using the UI (currently under development). 
+1. Select the folder that you want to encrypt using the UI. 
 2. Supply a password.
 3. The backend will recursively encrypt all previously "non-encrypted" files inside the directory(including sub-dirs).
 
@@ -12,9 +12,8 @@ KnoxCrypt [MacOS/Linux] - A secure cryptographic tool to encrypt-decrypt your fi
 3. The backend will recursively decrypt all previously "encrypted" files inside the directory(including sub-dirs).
 
 ## Features under development
-1. The frontend.
-2. Multi-Threading support for encryption/decryption for performance improvement
-3. Assertion support for Windows Operating System.
+1. Multi-Threading support for encryption/decryption for performance improvement
+2. Assertion support for Windows Operating System.
 
 ## Before Encryption
 
