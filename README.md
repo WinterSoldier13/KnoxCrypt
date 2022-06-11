@@ -17,7 +17,7 @@ KnoxCrypt [MacOS/Linux] - A secure cryptographic tool to encrypt-decrypt your fi
 
 ## DEMO
 
-![DEMO](./resources/demo.gif?raw=true "demo video")
+![DEMO](./resources/demo.gif "demo video")
 
 ## Before Encryption
 
