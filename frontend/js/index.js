@@ -34,7 +34,7 @@ document.getElementById("folder_picker").addEventListener("change", function(eve
 
 function continueButtonWorkflow(){
     setValueInLocalStorage();
-    let selector_page = "file:///Users/ayush/code/KnoxCrypt/frontend/options.html"
+    let selector_page = "./options.html"
     document.location.href = selector_page;
     console.log(
         "continue button"
