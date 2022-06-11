@@ -1,4 +1,5 @@
 const {app, BrowserWindow} = require('electron');
+require('electron-reloader')(module)
 
 function createMainWindow() {
     const win = new BrowserWindow({
