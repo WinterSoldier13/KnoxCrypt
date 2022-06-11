@@ -15,6 +15,10 @@ KnoxCrypt [MacOS/Linux] - A secure cryptographic tool to encrypt-decrypt your fi
 1. Multi-Threading support for encryption/decryption for performance improvement
 2. Assertion support for Windows Operating System.
 
+## DEMO
+
+![DEMO](./resources/demo.gif "demo video")
+
 ## Before Encryption
 
 ![Alt text](./resources/before_encryption_folder.png?raw=true "Folder View before encryption")
